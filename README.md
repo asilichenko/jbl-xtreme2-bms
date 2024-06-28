@@ -2,7 +2,10 @@
 Arduino scetches to analyse and emulate BMS microchip of the JBL XTREME 2 Bluetooth Speaker Battery.
 
 ## Module 1. Gas Gauging Device Stub
-// todo
+
+This stub can be used when you don't want to or cannot use the battery pack.
+
+[Explore->](BQ28Z610-stub)
 
 ## Author
 [@asilichenko](https://github.com/asilichenko)
