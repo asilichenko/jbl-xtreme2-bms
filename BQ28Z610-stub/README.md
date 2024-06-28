@@ -1,4 +1,4 @@
-# Gas Gauging Device BQ28Z610 Stub for JBL XTREAME 2 on Arduino
+# Arduino Stub for Battery Pack for JBL XTREAME 2
 
 This program is designed to be written on Arduino or ATtiny85 and acts as a stub to respond to the speaker's requests via the I2C protocol, 
 enabling the speaker to be used while connected to mains power without using a battery.
