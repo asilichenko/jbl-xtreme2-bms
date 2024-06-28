@@ -72,4 +72,4 @@ There are two options on how to power the device:
 - Texas Instruments BQ28Z610 Technical Reference Manual: [https://www.ti.com/lit/ug/sluua65e/sluua65e.pdf](https://www.ti.com/lit/ug/sluua65e/sluua65e.pdf)
 
 ## Sources
-[BQ28Z610-stub.ino](BQ28Z610-stub.ino)
+[battery-stub.ino](battery-stub.ino)
