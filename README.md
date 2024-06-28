@@ -7,7 +7,7 @@ This program is designed to be written on Arduino or ATtiny85 and acts as a stub
 
 It can be used when you don't want to or cannot use the battery pack.
 
-[Explore->](BQ28Z610-stub)
+[Explore->](battery-stub)
 
 ## Author
 [@asilichenko](https://github.com/asilichenko)
