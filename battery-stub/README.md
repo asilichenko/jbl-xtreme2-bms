@@ -17,6 +17,8 @@ AtTiny85:
 
 <img width="300" src="img/i2c-connection.png" alt="ATtiny85 I2C to JBL connection"/>
 
+<img width="300" src="img/component-layout.png" alt="ATtiny85 component layout"/>
+
 ## I2C commands
 
 The speaker periodicaly (ones per 5-10s) sends requests with three types of commands
