@@ -4,7 +4,7 @@
   @brief This is Gas Gauging Device BQ28Z610 Stub for JBL XTREAME 2 on Arduino.
 
   This stub can be used when you don't want to or cannot use the battery pack.
-  
+
   Write it on Arduino or ATtiny, connect it to the JBL speaker,
   and now the speaker can work mains-powered without the battery.
 
@@ -95,13 +95,13 @@ const word TEMP = 3000;  // 26.85°C: (26.85 + 273.15) * 10 = 3000
 
   When the Speacker is mains powered - the last active dot is always blinking.
 
-  - [85-100] - 5 dots
+  - >= 85 - 5 dots
   - [70-84] - 4 dots
   - [55-69] - 3 dots
   - [40-54] - 2 dots
   - [18-39] - 1 dot
-  - 17 - red dot start blinking
-  - <10 - Turns off after some time
+  - <= 17 - blinking red dot
+  - < 10 - turns off after some time
 
   @warning [!] Must mandatory: if 0 - you cannot play audio even when charging,
   speacker turns off and continues charging.
@@ -148,11 +148,17 @@ void printCommand(byte command) {
 }
 
 /**
+  @brief Wether the speacker is active.
+*/
+volatile bool isActive = false;
+
+/**
   @brief Received command.
 */
-byte command;
+volatile byte command = 0;
 
 void receiveEvent() {
+  isActive = true;
   command = Wire.read();
 
 #ifdef DEBUG
@@ -190,14 +196,14 @@ void writeResponse(word value) {
 */
 void requestEvent() {
   word value;
-  bool flag = true;
+  bool isUnsupportedCommand = false;
   if (Commands::TEMP == command) value = TEMP;  // Temperature in units 0.1°K (273.15 = 2731)
   else if (Commands::VOLT == command) value = VOLT;  // Pack Voltage in millivolts
   else if (Commands::RSOC == command) value = RSOC;  // Predicted remaining battery capacity as a percentage
-  else flag = false;
+  else isUnsupportedCommand = true;
   command = 0;
 
-  if (!flag) return;
+  if (isUnsupportedCommand) return;
 
 #ifdef DEBUG
   printResponse(value);
@@ -217,6 +223,7 @@ void goSleep() {
 }
 
 void loop() {
-  goSleep();
-  delay(200);
+  isActive = false;
+  delay(30000);  // 30s
+  if (!isActive) goSleep();
 }
