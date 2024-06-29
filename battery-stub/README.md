@@ -7,6 +7,8 @@ It can be used when you don't want to or cannot use the battery pack.
 
 ## Connection
 
+<img width="300" src="img/jbl-connection.png" alt="JBL XTREAME 2 Connection"/>
+
 Arduino Nano:
  - A4 = SDA -> white
  - A5 = SCL -> yellow
