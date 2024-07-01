@@ -11,6 +11,12 @@ It can be used when you don't want to or cannot use the battery pack.
 
 ## Utils
 
+### Address of the battery device
+
+To find out the I2C address of the battery gas gauging device you may use the sketch from the examples:
+
+<img height="600" src="utils/img/i2c_scanner.png"/>
+
 ### Commands receiver
 
 You may use this program to log commands from the speaker.
