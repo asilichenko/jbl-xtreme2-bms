@@ -11,17 +11,17 @@ It can be used when you don't want to or cannot use the battery pack.
 
 ## Utils
 
-### Speaker emulator
-
-You may use this program to emulate speaker sending commands to test either original Gas Gauging Device BQ28Z610 or custom software.
-
-- [speaker_emulator.ino](utils/speaker_emulator.ino)
-
 ### Commands receiver
 
 You may use this program to log commands from the speaker.
 
-- [commands_receiver.ino](utils/commands_receiver.ino)
+- [commands_receiver.ino](utils/commands_receiver/commands_receiver.ino)
+
+### Speaker emulator
+
+You may use this program to emulate speaker sending commands to test either original Gas Gauging Device BQ28Z610 or custom software.
+
+- [speaker_emulator.ino](utils/speaker_emulator/speaker_emulator.ino)
 
 ## Author
 [@asilichenko](https://github.com/asilichenko)
@@ -35,5 +35,5 @@ You may use this program to log commands from the speaker.
 ## Sources
 1. Battery stub: [battery-stub.ino](battery-stub/battery-stub.ino)
 2. Utils:
-   - [commands_receiver.ino](utils/commands_receiver.ino)
-   - [speaker_emulator.ino](utils/speaker_emulator.ino)
+   - [commands_receiver.ino](utils/commands_receiver/commands_receiver.ino)
+   - [speaker_emulator.ino](utils/speaker_emulator/speaker_emulator.ino)
