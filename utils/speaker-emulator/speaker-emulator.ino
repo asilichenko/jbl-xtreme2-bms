@@ -1,5 +1,5 @@
 /**
-  @file speaker_emulator.ino
+  @file speaker-emulator.ino
 
   This program periodically sends commads to the battery pack gas gauging device BQ28Z610:
   - 12.1.4 0x06/07 Temperature()
