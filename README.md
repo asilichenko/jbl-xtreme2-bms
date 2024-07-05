@@ -21,13 +21,13 @@ To find out the I2C address of the battery gas gauging device you may use the sk
 
 You may use this program to log commands from the speaker.
 
-- [commands_receiver.ino](utils/commands-receiver/commands-receiver.ino)
+- [commands-receiver.ino](utils/commands-receiver/commands-receiver.ino)
 
 ### Speaker emulator
 
 You may use this program to emulate speaker sending commands to test either original Gas Gauging Device BQ28Z610 or custom software.
 
-- [speaker_emulator.ino](utils/speaker-emulator/speaker-emulator.ino)
+- [speaker-emulator.ino](utils/speaker-emulator/speaker-emulator.ino)
 
 ## Author
 [@asilichenko](https://github.com/asilichenko)
