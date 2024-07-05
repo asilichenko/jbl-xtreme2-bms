@@ -1,5 +1,5 @@
 /**
-  @file commands_receiver.ino
+  @file commands-receiver.ino
 
   This program receives commands from the speaker and prints them into Serial port.
 
