@@ -21,7 +21,7 @@ It can be used when you don't want to or cannot use the battery pack.
 
 To find out the I2C address of the battery gas gauging device you may use the sketch from the examples:
 
-<img height="600" src="utils/img/i2c_scanner.png"/>
+<img height="600" src="utils/i2c_scanner.png"/>
 
 ### Commands receiver
 
