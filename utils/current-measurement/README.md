@@ -20,7 +20,7 @@ The remaining ends of the dividers should be connected to the ends of the curren
 
 ## Connection
 
-<img width="300" src="/utils/img/current_measurement.png" alt="Current measurement circuit"/>
+<img width="300" src="current_measurement.png" alt="Current measurement circuit"/>
 
 ## Process
 1. Measure voltage on the Arduino 5V pin and set this value to the constant `REF_VOLT` in millivolts.
