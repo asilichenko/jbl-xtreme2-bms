@@ -1,5 +1,16 @@
 # Current Measurement Util
 
+This utility program helps calibrate constants for accurate current measurement and calculation.
+
+Due to the voltage used by the JBL XTREME 2 being much greater than what can be measured
+by the Arduino, a voltage divider should be used.
+
+There are two voltage dividers: one for each end of the current sense shunt.
+Connect the common ends of the dividers together and ground them.
+The midpoint of each divider should be connected to the corresponding Arduino pin.
+The remaining ends of the dividers should be connected to the ends of the current sense shunt.
+
+
 ## Equipment
 - Power supply 7-9 V;
 - Adjustable load - to get current 100mA-1A;
