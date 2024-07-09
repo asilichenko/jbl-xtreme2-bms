@@ -11,6 +11,11 @@ It can be used when you don't want to or cannot use the battery pack.
 
 ## Utils
 
+- [Address of the battery device](#address-of-the-battery-device)
+- [Commands receiver](#commands-receiver)
+- [Speaker emulator](#speaker-emulator)
+- [Temperature measurement](#temperature-measurement)
+
 ### Address of the battery device
 
 To find out the I2C address of the battery gas gauging device you may use the sketch from the examples:
@@ -29,6 +34,29 @@ You may use this program to emulate speaker sending commands to test either orig
 
 - [speaker-emulator.ino](utils/speaker-emulator/speaker-emulator.ino)
 
+### Temperature measurement
+
+This utility program helps calibrate constants for accurate temperature measurement and calculation.
+
+Equipment:
+- Thermistor, NTC, 10kOhm.
+- Resistor, 10kOhm
+
+Connections:
+- Connect thermistor between VCC and Arduino analog pin.
+- Connect series resistor between Ground and thermistor/analog pin.
+
+<img width="300" src="utils/img/thermistor_connection.png" alt="Thermistor connection"/>
+
+> [!IMPORTANT]
+> If the thermistor is connected to the GND then use "analogValue = 1024 - analogValue" instead.
+
+> [!TIP]
+> See also: [Calibrating a Thermistor for Arduino Projects](https://www.linkedin.com/pulse/step-by-step-guide-calibrating-thermistor-arduino-oleksii-sylichenko-yvwif)
+
+> [!NOTE]
+> Sources: [temperature-measurement.ino](utils/temperature-measurement/temperature-measurement.ino)
+
 ## Author
 [@asilichenko](https://github.com/asilichenko)
 
@@ -43,3 +71,4 @@ You may use this program to emulate speaker sending commands to test either orig
 2. Utils:
    - [commands-receiver.ino](utils/commands-receiver/commands-receiver.ino)
    - [speaker-emulator.ino](utils/speaker-emulator/speaker-emulator.ino)
+   - [temperature-measurement.ino](utils/temperature-measurement/temperature-measurement.ino)
