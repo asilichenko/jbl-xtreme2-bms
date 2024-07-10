@@ -7,6 +7,7 @@ This program receives commands from the speaker and prints them into Serial port
 Arduino Nano:
 - A4 = SDA -> white
 - A5 = SCL -> yellow
+- GND -> black
 
 <img width="450" src="commands-receiver.png"/>
 
