@@ -1,4 +1,4 @@
-# Arduino Stub for Battery Pack for JBL XTREAME 2
+# Arduino Stub for Battery Pack for JBL XTREME 2
 
 This program is designed to be written on Arduino or ATtiny85 and acts as a stub to respond to the speaker's requests via the I2C protocol, 
 enabling the speaker to be used while connected to mains power without using a battery.
@@ -7,15 +7,17 @@ It can be used when you don't want to or cannot use the battery pack.
 
 ## Connection
 
-<img width="300" src="/img/jbl-connection.png" alt="JBL XTREAME 2 Connection"/>
+<img width="300" src="/img/jbl-connection.png" alt="JBL XTREME 2 Connection"/>
 
 Arduino Nano:
- - A4 = SDA -> white
- - A5 = SCL -> yellow
+- GND -> black
+- A4 = SDA -> white
+- A5 = SCL -> yellow
 
 AtTiny85:
- - 5 = SDA -> white
- - 7 = SCL -> yellow
+- 4 = GND -> black
+- 5 = SDA -> white
+- 7 = SCL -> yellow
 
 <img width="300" src="/img/i2c-connection.png" alt="ATtiny85 I2C to JBL connection"/>
 
