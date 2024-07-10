@@ -7,6 +7,8 @@ This program is designed to be written on Arduino or ATtiny85 and acts as a stub
 
 It can be used when you don't want to or cannot use the battery pack.
 
+<img width="300" src="battery-stub/img/stub-active-speaker-220-on-switch-on.png" alt="JBL XTREME 2 Battery Stub"/>
+
 [Explore->](battery-stub)
 
 ## Utils
