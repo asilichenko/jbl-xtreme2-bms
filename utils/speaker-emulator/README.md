@@ -2,7 +2,7 @@
 
 This program periodically sends commands to the battery pack gas gauging device as the real speaker does.
 
-<img width="300" src="speaker-emulator.png" alt="JBL XTREAME 2 Emulator"/>
+<img width="600" src="speaker-emulator.png" alt="JBL XTREAME 2 Emulator"/>
 
 The commands sent are standard commands for the gas gauging device BQ28Z610:
 - 12.1.4 0x06/07 Temperature()
