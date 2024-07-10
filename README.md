@@ -27,6 +27,8 @@ To find out the I2C address of the battery gas gauging device you may use the sk
 
 You may use this program to log commands from the speaker.
 
+<img width="450" src="utils/commands-receiver/commands-receiver.png"/>
+
 - [commands-receiver.ino](utils/commands-receiver/commands-receiver.ino)
 
 ### Speaker emulator
