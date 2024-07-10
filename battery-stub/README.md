@@ -7,7 +7,7 @@ It can be used when you don't want to or cannot use the battery pack.
 
 ## Connection
 
-<img width="300" src="img/jbl-connection.png" alt="JBL XTREAME 2 Connection"/>
+<img width="300" src="/img/jbl-connection.png" alt="JBL XTREAME 2 Connection"/>
 
 Arduino Nano:
  - A4 = SDA -> white
@@ -17,7 +17,7 @@ AtTiny85:
  - 5 = SDA -> white
  - 7 = SCL -> yellow
 
-<img width="300" src="img/i2c-connection.png" alt="ATtiny85 I2C to JBL connection"/>
+<img width="300" src="/img/i2c-connection.png" alt="ATtiny85 I2C to JBL connection"/>
 
 <img width="300" src="img/component-layout.png" alt="ATtiny85 component layout"/>
 
