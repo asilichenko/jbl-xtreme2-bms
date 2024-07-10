@@ -20,7 +20,7 @@ There is can be any time shift between them.
 Arduino Nano:
 - A4 = SDA -> white
 - A5 = SCL -> yellow
-- GND = GND -> black
+- GND -> black
 
 ## Author
 [@asilichenko](https://github.com/asilichenko)
