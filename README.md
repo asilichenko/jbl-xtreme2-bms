@@ -21,21 +21,23 @@ It can be used when you don't want to or cannot use the battery pack.
 
 To find out the I2C address of the battery gas gauging device you may use the sketch from the examples:
 
-<img height="600" src="utils/i2c_scanner.png"/>
+<img height="600" src="utils/i2c_scanner.png" alt="Arduino I2C device scanner"/>
 
 ### Commands receiver
 
 You may use this program to log commands from the speaker.
 
-<img width="450" src="utils/commands-receiver/commands-receiver.png"/>
+<img width="450" src="utils/commands-receiver/commands-receiver.png" alt="JBL XTREAME 2 Commands Receiver"/>
 
 [Explore->](utils/commands-receiver)
 
 ### Speaker emulator
 
-You may use this program to emulate speaker sending commands to test either original Gas Gauging Device BQ28Z610 or custom software.
+This util periodically sends commands to the battery pack gas gauging device as the real speaker does.
 
-- [speaker-emulator.ino](utils/speaker-emulator/speaker-emulator.ino)
+<img width="450" src="utils/speaker-emulator/speaker-emulator.png" alt="JBL XTREAME 2 Commands Emulator"/>
+
+[Explore->](utils/speaker-emulator)
 
 ### Temperature measurement
 
