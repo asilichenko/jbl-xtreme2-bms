@@ -29,7 +29,7 @@ You may use this program to log commands from the speaker.
 
 <img width="450" src="utils/commands-receiver/commands-receiver.png"/>
 
-- [commands-receiver.ino](utils/commands-receiver/commands-receiver.ino)
+[Explore->](utils/commands-receiver)
 
 ### Speaker emulator
 
@@ -41,11 +41,15 @@ You may use this program to emulate speaker sending commands to test either orig
 
 This utility program helps calibrate constants for accurate temperature measurement and calculation.
 
+<img width="300" src="utils/temperature-measurement/thermistor_connection.png"/>
+
 [Explore->](utils/temperature-measurement)
 
 ### Current measurement
 
 This utility program helps calibrate constants for accurate current measurement and calculation.
+
+<img width="300" src="utils/current-measurement/current_measurement.png"/>
 
 [Explore->](utils/current-measurement)
 
