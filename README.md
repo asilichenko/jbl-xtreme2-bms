@@ -1,5 +1,5 @@
 # JBL XTREME 2 BMS
-Arduino scetches to analyse and emulate BMS microchip of the JBL XTREME 2 Bluetooth Speaker Battery.
+Arduino sketches to analyse and emulate BMS microchip of the Battery Pack for the JBL XTREME 2 Bluetooth Speaker.
 
 ## Module 1. Stub for Battery Pack
 
