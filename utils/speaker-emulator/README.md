@@ -32,7 +32,7 @@ Arduino Nano:
 - Texas Instruments Technical Reference Manual https://www.ti.com/lit/ug/sluua65e/sluua65e.pdf
 - BQ28Z610 product: https://www.ti.com/product/BQ28Z610
 - [Arduino Stub for Battery Pack](/battery-stub)
-- [Arduino Gas Gauging](gas-gauging)
+- [Custom Arduino Driver for BQ28Z610](https://github.com/asilichenko/bq28z610-arduino-driver)
 
 ## Sources
 [speaker-emulator.ino](speaker-emulator.ino)
