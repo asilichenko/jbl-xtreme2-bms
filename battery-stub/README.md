@@ -36,6 +36,14 @@ The stub responses with hardcoded values:
 - 8400 for Voltage() - 8400 mV = 8.4V = 2 * 4.2V
 - 100 for RelativeStateOfCharge() - 100%
 
+## Relative State Of Charge
+
+JBL Xtreme 2 has 5 LED battery charge indicators:
+
+<img width="600" src="img/battery indicator.jpg" alt="battery indicators"/>
+
+When the Speaker is mains powered - the last active dot is always blinking. Even if battery is full - the last one still be blinking. 
+
 ## Power management
 
 The stub should have its own power supply, at least a supercapacitor, 
