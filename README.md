@@ -60,14 +60,6 @@ This utility program helps calibrate constants for accurate current measurement 
 ## Author
 [@asilichenko](https://github.com/asilichenko)
 
-## License
-[MIT license](LICENSE)
-
-## References
-- Texas Instruments BQ28Z610 Technical Reference Manual: [https://www.ti.com/lit/ug/sluua65e/sluua65e.pdf](https://www.ti.com/lit/ug/sluua65e/sluua65e.pdf)
-- Custom Arduino Driver for Battery Gas Gauging Device BQ28Z610: https://github.com/asilichenko/bq28z610-arduino-driver
-- [Arduino I2C Tester](https://github.com/asilichenko/i2c_tester) - Scans for I2C devices and performs read/write operations based on commands from the Serial Monitor.
-
 ## Sources
 1. Battery stub: [battery-stub.ino](battery-stub/battery-stub.ino)
 2. Utils:
@@ -75,3 +67,11 @@ This utility program helps calibrate constants for accurate current measurement 
    - [speaker-emulator.ino](utils/speaker-emulator/speaker-emulator.ino)
    - [temperature-measurement.ino](utils/temperature-measurement/temperature-measurement.ino)
    - [current-measurement.ino](utils/current-measurement/current-measurement.ino)
+
+## References
+- Texas Instruments BQ28Z610 Technical Reference Manual: [https://www.ti.com/lit/ug/sluua65e/sluua65e.pdf](https://www.ti.com/lit/ug/sluua65e/sluua65e.pdf)
+- Custom Arduino Driver for Battery Gas Gauging Device BQ28Z610: https://github.com/asilichenko/bq28z610-arduino-driver
+- [Arduino I2C Tester](https://github.com/asilichenko/i2c_tester) - Scans for I2C devices and performs read/write operations based on commands from the Serial Monitor.
+
+## License
+[MIT license](LICENSE)
